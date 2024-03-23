@@ -1,0 +1,48 @@
+{
+    "name": "theme-norrsken",
+    "version": "1.0.0",
+    "displayName": "Norrsken",
+    "homepage": "https://norrsken.dev/",
+    "description": "Official Norrsken Theme. Aurora-inspired theme designed to minimize eye strain and improve syntax highlighting.",
+    "publisher": "norrsken-theme",
+    "license": "MIT",
+    "scripts": {
+        "build": "node ./scripts/build.js",
+        "lint": "node ./scripts/lint.js",
+        "package": "vsce package -o ./bin/norrsken.vsix",
+        "vscode:prepublish": "npm run build",
+        "vsce-publish": "vsce publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/webhooked/norrsken-vscode.git"
+    },
+    "bugs": {
+        "url": "https://github.com/webhooked/norrsken-vscode/issues"
+    },
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": ["Themes"],
+    "keywords": ["norrsken", "aurora", "dark", "theme", "color-theme"],
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#101012",
+        "theme": "dark"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Norrsken",
+                "uiTheme": "vs-dark",
+                "path": "./theme/norrsken.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "js-yaml": "^4.1.0",
+        "prettier": "^3.0.0",
+        "tinycolor2": "^1.6.0",
+        "vsce": "^2.15.0"
+    }
+}
