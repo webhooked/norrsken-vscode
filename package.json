@@ -4,7 +4,7 @@
     "displayName": "Norrsken",
     "homepage": "https://norrsken.dev/",
     "description": "Official Norrsken Theme. Aurora-inspired theme designed to minimize eye strain and improve syntax highlighting.",
-    "publisher": "norrsken-theme",
+    "publisher": "Norrsken",
     "license": "MIT",
     "scripts": {
         "build": "node ./scripts/build.js",
