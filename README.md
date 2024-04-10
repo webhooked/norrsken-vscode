@@ -4,7 +4,7 @@
 
 ## Introducing **Norrsken**
 
-An aurora-inspired dark theme with peppermint and tangerine colors. The theme is designed to minimize eye strain and improve syntax highlighting, making it easier for developers to read and write code.
+An aurora-inspired dark theme designed to minimize eye strain and improve syntax highlighting - making it easier for developers to read and write code.
 
 ![Screenshot](https://raw.githubusercontent.com/webhooked/norrsken-vscode/master/screenshot.png)
 
