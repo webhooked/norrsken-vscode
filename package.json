@@ -1,6 +1,6 @@
 {
     "name": "theme-norrsken",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "displayName": "Norrsken",
     "homepage": "https://norrsken.dev/",
     "description": "Official Norrsken Theme. Aurora-inspired theme designed to minimize eye strain and improve syntax highlighting.",
@@ -23,16 +23,8 @@
     "engines": {
         "vscode": "^1.13.0"
     },
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-        "norrsken",
-        "aurora",
-        "dark",
-        "theme",
-        "color-theme"
-    ],
+    "categories": ["Themes"],
+    "keywords": ["norrsken", "aurora", "dark", "theme", "color-theme"],
     "icon": "icon.png",
     "galleryBanner": {
         "color": "#101012",
