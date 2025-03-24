@@ -5,7 +5,7 @@ semanticClass: theme.norrsken
 semanticHighlighting: true
 norrsken:
   base:
-    - &BG "#222330"
+    - &BG "#101117"
     - &FG "#F7F7FD"
     - &SELECTION "#303040"
     - &COMMENT "#606070"
@@ -16,7 +16,7 @@ norrsken:
     - &TWILIGHT "#BBC4D8"
     - &FLARE "#ff2e18"
   ansi:
-    - &COLOR0 "#222330"
+    - &COLOR0 "#101117"
     - &COLOR1 "#ff2e18"
     - &COLOR2 "#F5F394"
     - &COLOR3 "#98FFC7"
@@ -24,7 +24,7 @@ norrsken:
     - &COLOR5 "#BBC4D8"
     - &COLOR6 "#98FFC7"
     - &COLOR7 "#F7F7FD"
-    - &COLOR8 "#222330"
+    - &COLOR8 "#101117"
     - &COLOR9 "#ff2e18"
     - &COLOR10 "#F5F394"
     - &COLOR11 "#98FFC7"
